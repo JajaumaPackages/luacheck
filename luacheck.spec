@@ -3,7 +3,7 @@
 %define debug_package %{nil}
 
 Name:           luacheck
-Version:        0.15.0
+Version:        0.20.0
 Release:        1%{?dist}
 Summary:        A static analyzer and a linter for Lua
 
@@ -46,5 +46,8 @@ cp -a src/luacheck %{buildroot}%{luapkgdir}
 
 
 %changelog
+* Tue Aug 22 2017 Jajauma's Packages <jajauma@yandex.ru> - 0.20.0-1
+- Update to latest upstream release
+
 * Fri May 13 2016 Jajauma's Packages <jajauma@yandex.ru> - 0.15.0-1
 - Public release
